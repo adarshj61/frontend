@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <script defer src="/js/dashboard.js"></script>
+</head>
+<body class="bg-gray-100 min-h-screen">
+  <header class="bg-blue-600 text-white py-4 text-center">
+    <h1 class="text-2xl font-bold">Welcome to Your Dashboard</h1>
+  </header>
+  <main class="p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <a href="add-material.html" class="bg-green-500 text-white p-4 rounded-lg shadow hover:bg-green-600 text-center">
+        <i class="fas fa-plus"></i> Add Material
+      </a>
+      <a href="view-materials.html" class="bg-blue-500 text-white p-4 rounded-lg shadow hover:bg-blue-600 text-center">
+        <i class="fas fa-eye"></i> View Materials
+      </a>
+    </div>
+  </main>
+</body>
+</html>
